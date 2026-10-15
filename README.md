@@ -1,4 +1,4 @@
-# O que separa o meu ADC de jogadores de elite?
+# O que separa eu de ADC de jogadores da elite?
 
 **Benchmark da fase de rota (0–15 min) de League of Legends com a Riot API, Python e SQLite.**
 
