@@ -1,0 +1,482 @@
+{
+  "n": {
+    "eu": 36,
+    "ref": 157,
+    "ref_total": 235,
+    "ref_mirrored_rows": 78,
+    "mirrored_matches": 39
+  },
+  "curve": {
+    "eu_mean": [
+      5.4,
+      8.4,
+      -23.4,
+      25.4,
+      8.6,
+      15.9,
+      -21.2,
+      -39.4,
+      -152.2,
+      -87.5,
+      -191.6,
+      -125.0,
+      -139.6,
+      -160.0,
+      -149.9
+    ],
+    "ref_mean": [
+      4.0,
+      70.3,
+      76.0,
+      153.6,
+      165.4,
+      207.6,
+      306.0,
+      359.4,
+      437.5,
+      567.9,
+      681.7,
+      900.1,
+      1020.2,
+      1081.4,
+      1152.4
+    ],
+    "eu_lo": [
+      -27.4,
+      -39.4,
+      -126.1,
+      -103.8,
+      -139.1,
+      -157.5,
+      -228.5,
+      -277.6,
+      -460.6,
+      -437.2,
+      -594.6,
+      -601.4,
+      -665.5,
+      -648.5,
+      -654.3
+    ],
+    "eu_hi": [
+      39.0,
+      59.0,
+      78.4,
+      152.8,
+      146.3,
+      179.8,
+      181.7,
+      198.1,
+      133.4,
+      213.9,
+      170.3,
+      324.6,
+      353.1,
+      306.4,
+      346.5
+    ],
+    "ref_lo": [
+      -18.3,
+      23.8,
+      13.7,
+      77.3,
+      72.5,
+      102.7,
+      192.9,
+      222.9,
+      282.8,
+      393.6,
+      474.8,
+      646.8,
+      742.9,
+      783.0,
+      822.3
+    ],
+    "ref_hi": [
+      24.4,
+      115.3,
+      136.4,
+      230.5,
+      255.7,
+      311.4,
+      420.9,
+      490.2,
+      588.5,
+      748.1,
+      904.1,
+      1160.5,
+      1305.4,
+      1389.9,
+      1484.9
+    ],
+    "gap": [
+      -1.4,
+      61.9,
+      99.4,
+      128.2,
+      156.8,
+      191.6,
+      327.2,
+      398.8,
+      589.7,
+      655.4,
+      873.4,
+      1025.1,
+      1159.8,
+      1241.4,
+      1302.3
+    ],
+    "gap_lo": [
+      -42.2,
+      -7.6,
+      -23.2,
+      -24.8,
+      -14.0,
+      -6.8,
+      88.3,
+      113.3,
+      249.7,
+      287.7,
+      451.4,
+      511.5,
+      582.1,
+      667.3,
+      706.6
+    ],
+    "gap_hi": [
+      35.4,
+      126.2,
+      217.9,
+      284.1,
+      328.1,
+      386.7,
+      567.2,
+      682.8,
+      940.3,
+      1047.2,
+      1330.9,
+      1556.0,
+      1737.2,
+      1808.7,
+      1897.0
+    ],
+    "eu_median": [
+      0.0,
+      2.0,
+      -40.0,
+      2.0,
+      64.0,
+      102.0,
+      50.0,
+      22.0,
+      -77.0,
+      53.0,
+      -3.0,
+      -2.0,
+      -47.0,
+      -48.0,
+      -176.0
+    ],
+    "ref_median": [
+      0.0,
+      68.0,
+      89.0,
+      126.0,
+      180.0,
+      211.0,
+      283.0,
+      285.0,
+      390.0,
+      446.0,
+      491.0,
+      727.0,
+      871.0,
+      915.0,
+      1146.0
+    ]
+  },
+  "first_clear_minute": 7,
+  "gold_growth_per_min_5_to_15": 114.5,
+  "decomposition": {
+    "gap_total": 1302.3,
+    "r2": 0.95,
+    "n_rows": 191,
+    "gold_per_cs": 27.8,
+    "gold_per_killgold": 1.12,
+    "gold_per_assist_diff": 111.1,
+    "gold_per_plate_diff": 92.7,
+    "parts": [
+      {
+        "key": "cd_15",
+        "label": "CS à frente do adversário",
+        "value": 584.0,
+        "lo": 338.6,
+        "hi": 860.5,
+        "share_pct": 44.8
+      },
+      {
+        "key": "kg_diff",
+        "label": "Ouro dos abates",
+        "value": 408.5,
+        "lo": 53.7,
+        "hi": 792.9,
+        "share_pct": 31.4
+      },
+      {
+        "key": "a_diff",
+        "label": "Assistências",
+        "value": 52.5,
+        "lo": -57.6,
+        "hi": 164.8,
+        "share_pct": 4.0
+      },
+      {
+        "key": "pl_diff",
+        "label": "Placas de torre (você vs. adversário)",
+        "value": 143.6,
+        "lo": 38.6,
+        "hi": 261.9,
+        "share_pct": 11.0
+      },
+      {
+        "key": "tpl_diff",
+        "label": "Placas do time na rota inferior",
+        "value": 31.8,
+        "lo": -12.0,
+        "hi": 94.8,
+        "share_pct": 2.4
+      },
+      {
+        "key": "rest",
+        "label": "Resto (passivo, objetivos, não explicado)",
+        "value": 81.8,
+        "lo": -47.9,
+        "hi": 212.5,
+        "share_pct": 6.3
+      }
+    ]
+  },
+  "early": {
+    "kill_by_5": {
+      "eu": 38.89,
+      "ref": 66.88,
+      "diff_ref_minus_eu": 27.99,
+      "ci_lo": 9.64,
+      "ci_hi": 44.84,
+      "clear": true,
+      "label": "Abate até o min 5 (% das partidas)"
+    },
+    "death_by_5": {
+      "eu": 30.56,
+      "ref": 60.51,
+      "diff_ref_minus_eu": 29.95,
+      "ci_lo": 12.42,
+      "ci_hi": 45.75,
+      "clear": true,
+      "label": "Morte até o min 5 (% das partidas)"
+    },
+    "cd_5": {
+      "eu": -2.17,
+      "ref": 4.94,
+      "diff_ref_minus_eu": 7.1,
+      "ci_lo": 4.1,
+      "ci_hi": 10.16,
+      "clear": true,
+      "label": "CS à frente do adversário no min 5"
+    },
+    "xd_5": {
+      "eu": -51.28,
+      "ref": 96.8,
+      "diff_ref_minus_eu": 148.08,
+      "ci_lo": 54.78,
+      "ci_hi": 238.63,
+      "clear": true,
+      "label": "XP à frente do adversário no min 5"
+    },
+    "wards_me_15": {
+      "eu": 4.17,
+      "ref": 8.86,
+      "diff_ref_minus_eu": 4.69,
+      "ci_lo": 3.71,
+      "ci_hi": 5.7,
+      "clear": true,
+      "label": "Sentinelas colocadas até o min 15"
+    },
+    "wardkills_me_15": {
+      "eu": 0.94,
+      "ref": 1.81,
+      "diff_ref_minus_eu": 0.87,
+      "ci_lo": 0.41,
+      "ci_hi": 1.31,
+      "clear": true,
+      "label": "Sentinelas destruídas até o min 15"
+    },
+    "kd_net_15": {
+      "eu": 0.4,
+      "ref": 1.06,
+      "diff_ref_minus_eu": 0.66,
+      "ci_lo": -0.6,
+      "ci_hi": 1.87,
+      "clear": false,
+      "label": "Abates − mortes até o min 15"
+    },
+    "pl_diff": {
+      "eu": -0.23,
+      "ref": 1.32,
+      "diff_ref_minus_eu": 1.55,
+      "ci_lo": 0.51,
+      "ci_hi": 2.67,
+      "clear": true,
+      "label": "Placas: você − adversário (até o min 15)"
+    },
+    "first_kill_s": {
+      "eu": 356.0,
+      "ref": 195.5,
+      "diff_ref_minus_eu": -133.51,
+      "ci_lo": -213.64,
+      "ci_hi": -53.8,
+      "clear": true,
+      "label": "Segundo do primeiro abate (mediana, só quem teve)"
+    },
+    "first_back_s": {
+      "eu": 216.6,
+      "ref": 195.6,
+      "diff_ref_minus_eu": -20.24,
+      "ci_lo": -41.71,
+      "ci_hi": -0.73,
+      "clear": true,
+      "label": "Segundo do primeiro back"
+    }
+  },
+  "table": {
+    "cs_per_min": {
+      "label": "CS por minuto",
+      "eu": 7.8,
+      "ref": 8.82,
+      "diff_ref_minus_eu": 1.03,
+      "ci_lo": 0.69,
+      "ci_hi": 1.38,
+      "clear": true
+    },
+    "cs_15": {
+      "label": "CS aos 15 min",
+      "eu": 111.71,
+      "ref": 126.34,
+      "diff_ref_minus_eu": 14.63,
+      "ci_lo": 9.41,
+      "ci_hi": 19.47,
+      "clear": true
+    },
+    "gd_15": {
+      "label": "Diferença de ouro aos 15 min",
+      "eu": -149.86,
+      "ref": 1152.4,
+      "diff_ref_minus_eu": 1302.25,
+      "ci_lo": 688.09,
+      "ci_hi": 1906.14,
+      "clear": true
+    },
+    "xd_15": {
+      "label": "Diferença de XP aos 15 min",
+      "eu": -162.49,
+      "ref": 445.63,
+      "diff_ref_minus_eu": 608.11,
+      "ci_lo": 258.74,
+      "ci_hi": 964.84,
+      "clear": true
+    },
+    "kills_me_15": {
+      "label": "Abates até o min 15",
+      "eu": 3.6,
+      "ref": 4.73,
+      "diff_ref_minus_eu": 1.13,
+      "ci_lo": 0.22,
+      "ci_hi": 1.99,
+      "clear": true
+    },
+    "deaths_me_10": {
+      "label": "Mortes até o min 10",
+      "eu": 1.51,
+      "ref": 2.09,
+      "diff_ref_minus_eu": 0.57,
+      "ci_lo": 0.13,
+      "ci_hi": 1.02,
+      "clear": true
+    },
+    "deaths_me_15": {
+      "label": "Mortes até o min 15",
+      "eu": 3.2,
+      "ref": 3.67,
+      "diff_ref_minus_eu": 0.47,
+      "ci_lo": -0.08,
+      "ci_hi": 1.01,
+      "clear": false
+    },
+    "kp_pct": {
+      "label": "Participação em abates (%)",
+      "eu": 47.42,
+      "ref": 55.42,
+      "diff_ref_minus_eu": 8.0,
+      "ci_lo": 2.38,
+      "ci_hi": 13.59,
+      "clear": true
+    },
+    "damage_per_min": {
+      "label": "Dano por minuto",
+      "eu": 919.44,
+      "ref": 1159.61,
+      "diff_ref_minus_eu": 240.16,
+      "ci_lo": 95.87,
+      "ci_hi": 382.64,
+      "clear": true
+    },
+    "gold_per_min": {
+      "label": "Ouro por minuto",
+      "eu": 493.52,
+      "ref": 569.04,
+      "diff_ref_minus_eu": 75.52,
+      "ci_lo": 44.13,
+      "ci_hi": 107.63,
+      "clear": true
+    },
+    "vision_score": {
+      "label": "Pontuação de visão",
+      "eu": 15.86,
+      "ref": 24.94,
+      "diff_ref_minus_eu": 9.08,
+      "ci_lo": 5.81,
+      "ci_hi": 12.41,
+      "clear": true
+    }
+  },
+  "auc_gold_diff_by_minute": {
+    "3": 0.607,
+    "5": 0.653,
+    "8": 0.68,
+    "10": 0.67,
+    "12": 0.694,
+    "15": 0.739
+  },
+  "lane_lead_min8": {
+    "ahead_300": {
+      "n": 103,
+      "winrate": 0.728
+    },
+    "behind_300": {
+      "n": 65,
+      "winrate": 0.385
+    },
+    "share_games_ahead": {
+      "eu": 0.333,
+      "ref": 0.49
+    },
+    "share_games_behind": {
+      "eu": 0.361,
+      "ref": 0.248
+    }
+  },
+  "winrate": {
+    "eu": 0.556,
+    "ref": 0.567
+  }
+}

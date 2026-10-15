@@ -1,0 +1,7 @@
+{
+  "players": [
+    { "label": "eu", "group": "eu", "riot_id": "SeuNick#TAG", "count": 100 },
+    { "label": "Ref_A", "group": "referencia", "riot_id": "Nick#TAG" },
+    { "label": "Ref_B", "group": "referencia", "riot_id": "Nick#TAG", "count": 30 }
+  ]
+}
